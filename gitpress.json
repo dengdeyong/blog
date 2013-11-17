@@ -1,0 +1,28 @@
+{
+    "docs"      : ["posts"],
+    "template"  : "default",
+    "domain_alias" :  ["welefen"],  
+    "perpage"   : 10,
+    "order"  : "number",
+    "types"     : {
+        "\\.(md||markdown)$"   : "markdown", 
+        "\\.(js||css||json)$"  : "code",
+        "\\.html?$"            : "html",
+        ".*"                   : "text"     
+    },
+    "title"  : "Welefen's Blog",
+    "description" : "welefen's blog",
+    "comment"  : "on",
+    "friends"  : [
+        {
+          "name"  : "github",
+          "title"  : "github",
+          "url"  : "http://github.com"        
+        },
+        {
+          "name"  : "gitpress",
+          "title"  : "gitpress",
+          "url"  : "http://gitpress.org"
+        }
+    ] 
+}
